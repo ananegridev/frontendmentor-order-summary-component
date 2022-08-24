@@ -18,9 +18,15 @@
 
 /* FONT */
 
-.f-regular{ font-weight: 500; }
-.f-bold{ font-weight: 700; }
-.f-black{ font-weight: 900; }
+.f-regular {
+  font-weight: 500;
+}
+.f-bold {
+  font-weight: 700;
+}
+.f-black {
+  font-weight: 900;
+}
 
 /* CSS */
 
@@ -38,141 +44,149 @@ body {
   background-color: var(--paleblue);
 }
 
-main{
-    max-width: 450px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    text-align: center;
-    border-radius: 20px;
+main {
+  max-width: 450px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
 
-    margin: 0 4%;
+  margin: 0 4%;
 
-    box-shadow: 1px 18px 29px 0px rgba(0,0,0,0.1);
--webkit-box-shadow: 1px 18px 29px 0px rgba(0,0,0,0.1);
--moz-box-shadow: 1px 18px 29px 0px rgba(0,0,0,0.1);
+  box-shadow: 1px 18px 29px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 1px 18px 29px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 18px 29px 0px rgba(0, 0, 0, 0.1);
 }
 
-.img-illustration{
-    max-width: 100%;
-    border-radius: 20px 20px 0 0;
+.img-illustration {
+  max-width: 100%;
+  border-radius: 20px 20px 0 0;
 }
 
-section{
-    height: 430px;
-    padding: 8% 11%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+section {
+  height: 430px;
+  padding: 8% 11%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-h1{
-    font-size: 28px;
+h1 {
+  font-size: 28px;
 }
 
-p{
-    color: var(--desaturatedblue);
-    line-height: 1.5;
+p {
+  color: var(--desaturatedblue);
+  line-height: 1.5;
 }
 
-.card{
-    padding: 20px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--verypaleblue);
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--verypaleblue);
 }
 
-.card div:first-child{
-    display: flex;align-items: center;
+.card div:first-child {
+  display: flex;
+  align-items: center;
 }
 
-.card-plan-text{
-    margin-left: 20px;
+.card-plan-text {
+  margin-left: 20px;
 }
 
-span{
-    color: var(--desaturatedblue);
-    line-height: 1.5;
+span {
+  color: var(--desaturatedblue);
+  line-height: 1.5;
 }
 
-.card-plan-option a{
-    color: var(--brightblue);
-    font-size: 14px;
+.card-plan-option a {
+  color: var(--brightblue);
+  font-size: 14px;
 }
 
-.card-plan-option a:hover{
-    opacity: 0.8;
-    text-decoration: none;
+.card-plan-option a:hover {
+  opacity: 0.8;
+  text-decoration: none;
 }
 
-
-
-button{
-    border: none;
-    cursor: pointer;
+button {
+  border: none;
+  cursor: pointer;
 }
 
-.btn-pay{
-    padding: 5%;
-    border-radius: 10px;
-    background-color: var(--brightblue);
-    color: var(--verypaleblue);
-    box-shadow: 0 8px 30px 0 #0000002c;
+.btn-pay {
+  padding: 5%;
+  border-radius: 10px;
+  background-color: var(--brightblue);
+  color: var(--verypaleblue);
+  box-shadow: 0 8px 30px 0 #0000002c;
 }
 
-.btn-pay:hover{
-    opacity: 0.8;
-    box-shadow: 0px 3px 5px 0 #0000002c;
-    transition: .3s ease box-shadow;
+.btn-pay:hover {
+  opacity: 0.8;
+  box-shadow: 0px 3px 5px 0 #0000002c;
+  transition: 0.3s ease box-shadow;
 }
 
-.btn-cancel{
-    color: var(--desaturatedblue);
-    background: none;
+.btn-cancel {
+  color: var(--desaturatedblue);
+  background: none;
 }
 
-.btn-cancel:hover{
-    color: var(--darkblue);
+.btn-cancel:hover {
+  color: var(--darkblue);
 }
 
 /* RESPONSIVE */
 @media only screen and (max-width: 400px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+  }
+  main {
+    margin: 0 7%;
+  }
+  section {
+    padding: 9% 7%;
+  }
+  h1 {
+    font-size: 23px;
+  }
+  p {
+    width: 93%;
+    margin: 0 auto;
+  }
 
-    body {
-        background-image: url(./images/pattern-background-mobile.svg);
-      }
-      main{
-        margin:0 7%;
-      }
-      section{
-        padding: 9% 7%;
+  .card {
+    padding: 15px;
+  }
+  .card-plan-text {
+    margin-left: 15px;
+  }
+  h4,
+  span {
+    font-size: 14px;
+  }
+  .card-plan-option a {
+    font-size: 13px;
+  }
+}
 
-    
-    }
-    h1{
-font-size: 23px;
-    }
-
-    p{
-        width: 93%;
-        margin: 0 auto;
-    }
-
-    .card{
-        padding: 15px;
-    }
-    .card-plan-text{
-        margin-left: 15px;
-    }
-    h4, span{
-        font-size: 14px;
-    }
-    .card-plan-option a{
-        font-size: 13px;
-    }
+@media only screen and (max-width: 340px) {
+  .card {
+    flex-direction: column;
+  }
+  .card div:first-child {
+    flex-direction: column;
+  }
+  .card-plan-text {
+    margin: 10px;
+  }
 }
 
 /* CSS CREDITS*/
