@@ -10,7 +10,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Page Frontend Mentor]()
+- Solution URL: [Page Frontend Mentor](https://www.frontendmentor.io/solutions/solution-order-summary-card-if2_z13YoF)
 - Live Site URL: [Page Public](https://frontendmentor-order-summary-component-sandy.vercel.app/)
 
 ### Built with
