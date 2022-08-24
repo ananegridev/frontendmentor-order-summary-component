@@ -6,12 +6,12 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![]()
+![](https://github.com/ananegridev/frontendmentor-order-summary-component/blob/main/images/desktop-design.jpg)
 
 ### Links
 
-- Solution URL: [Page Frontend Mentor]()
-- Live Site URL: [Page Public]()
+- Solution URL: [Page Frontend Mentor](https://www.frontendmentor.io/solutions/solution-order-summary-card-if2_z13YoF)
+- Live Site URL: [Page Public](https://frontendmentor-order-summary-component-sandy.vercel.app/)
 
 ### Built with
 
